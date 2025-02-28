@@ -11,16 +11,21 @@
  text-align: justify;
 }
 body{
-    background-image: linear-gradient(to bottom, black, rgb(36, 36, 36));
-    background-attachment: fixed;
+    height: 100vh;
+    
     font-family: Arial, Helvetica, sans-serif;
+    background: black url('depositphotos_10104616-stock-photo-man-walking-on-a-path.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+header{
+    
 }
 header>h1{
     font-size: 5em;
     font-family: rdr;
     background-image: linear-gradient(to bottom, rgb(148, 0, 0), rgb(68, 0, 0));
-    height: 2em;
-    padding: 2em 0px 0px 0px;
+    
+    padding: 2em 0px;
     text-align: center;
     text-shadow: 1px 1px 3px black;
 }
